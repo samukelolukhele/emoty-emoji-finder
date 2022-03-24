@@ -1,5 +1,3 @@
-const emojipedia = [
-  
-];
+const emojipedia = [];
 
 export default emojipedia;
