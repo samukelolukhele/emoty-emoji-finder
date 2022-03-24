@@ -6,7 +6,9 @@ const { EmojiAPI } = require("emoji-api");
 
 const app = express();
 const emoji = new EmojiAPI();
-const PORT = 8080;
+const PORT = process.env.PORT;
+
+require('dotenv').config();
 
 app.use(express.json());
 app.use(cors());

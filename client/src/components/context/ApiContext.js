@@ -28,7 +28,7 @@ export const ApiProvider = ({ children }) => {
 
 
       })
-      .catch((err) => setError(true));
+      .catch(() => setError(true));
     setLoading(false);
   }
 
