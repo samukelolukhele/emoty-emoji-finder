@@ -19,7 +19,7 @@ export default function Search() {
       <button
         className="search-btn flex-row flex-center"
         onClick={() => {
-          getData(`http://localhost:8080/api/${search}`);
+          getData(`https://emoty.vercel.app/api/${search}`);
           inputRef.current.value = "";
           }}
       >
