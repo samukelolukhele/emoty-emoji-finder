@@ -6,6 +6,7 @@ export default function Search() {
   const [search, setSearch] = useState("");
   const inputRef = useRef();
   const { getData } = useContext(ApiContext);
+  const { REACT_APP_API } = process.env;
 
   return (
     <div className="flex-center flex-col">
@@ -19,7 +20,7 @@ export default function Search() {
       <button
         className="search-btn flex-row flex-center"
         onClick={() => {
-          getData(`https://emoty.vercel.app/api/${search}`);
+          getData(`${REACT_APP_API}${search}`);
           inputRef.current.value = "";
           }}
       >
