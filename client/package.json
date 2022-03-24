@@ -1,4 +1,5 @@
 {
+  "homepage": "https://emoty-gvepu3edi-samukelolukhele.vercel.app/",
   "name": "mapping-components-practice",
   "version": "1.0.0",
   "description": "",
@@ -11,6 +12,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
